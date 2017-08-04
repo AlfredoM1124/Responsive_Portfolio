@@ -1,0 +1,255 @@
+body {
+	margin: 0px;
+	padding: 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	}
+p {
+	color: #777777;
+	padding: 20px;
+	line-height: 1.5em;
+	}
+h1, h2, h3, h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	margin-left: 10px;
+	}
+h2{
+	padding: 20px 0px;
+	border-bottom: 3px solid;
+	border-color: #cccccc;
+	font-size: 1.5em;
+}
+h3 {
+	margin-left: 20px;
+    padding: 20px 0;
+    border-bottom: 2px solid;
+    border-color: #f2f2f2;
+    font-size: 1em;
+}
+header {
+	width: 100%
+	margin: auto;
+	clear: both;
+	background-color: #ffffff;
+	border: 2px;
+	border-color: #cccccc;
+	}
+body {
+	margin: 0px;
+	padding: 0;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	}
+p {
+	color: #777777;
+
+	}
+h1, h2, h3, h4 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	margin-left: 10px;
+	}
+header {
+	width: 100%
+	margin: auto;
+	clear: both;
+	background-color: #ffffff;
+	border: 2px;
+	border-color: #cccccc;
+	}
+#headerDiv {
+	background-color: #ffffff;
+	width: 960px;
+	clear: both;
+	overflow: auto;
+	margin: auto;
+	}
+#nameSquare {
+    background-color: #4aaaa5;
+    float: left;
+    padding: 30px;
+    margin-left: 10px;
+	}
+#AlfredoM {
+		color: white;
+		letter-spacing: 3px;
+
+	}
+#nav {
+		background-color: #fff;
+		float: right;
+		padding: 30px;
+    	margin-right: 10px;	
+	}
+#nav li {
+		display: inline;
+		margin-right: 20px;
+	}
+
+
+a:link {
+    color: gray;
+    text-decoration: none;
+}
+a:visited {
+    color: gray;
+    text-decoration: none;
+}
+a:hover {
+    color: lightgray;
+    text-decoration: none;
+}
+a:active {
+    color: gray;
+    text-decoration: none;
+}
+
+#fullWrap {
+	background-image: url("../images/concrete-texture.png");
+    background-repeat: repeat-x;
+    border-bottom: 5px solid;
+    border-color: #4aaaa5;
+}
+
+
+/*Begin Main Content*/
+
+
+#mainContent {
+	background-color: #ffffff;
+	background-image: url("../images/concrete-texture.png");
+    background-repeat: repeat-x;
+	overflow: auto;
+	clear: both;
+	width: 960px;
+	border-color: #dddddd;
+	margin: auto;
+}
+#aboutMe {
+		background-color: white;
+		overflow: auto;
+		width: 610px;
+		float: left;
+		margin: 30px 10px 30px 10px;
+		padding: 0px 20px;
+	}
+p .bodyText {
+		padding-right:10px;
+	}
+#connect {
+		background-color: white;
+		overflow: auto;
+		width: 270px;
+		float: right;
+		margin: 30px 10px 30px 10px;
+	}
+
+.smLogo {
+		width: 50px;
+		float: left;
+		margin: 30px 20px;
+	}
+#footer {
+	background-color: #666666;
+	clear: both;
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+	color: #ffffff;
+}
+#headshot {
+	width: 200px;
+    border: 1px solid #dddddd;
+    float: left;
+    margin: 0 1em;
+}
+	/*Form styles CSS*/
+
+input {
+  width: 375px;
+  display: block;
+  border: 1px solid #999;
+  height: 25px;
+}
+
+form {
+	color: gray;
+	margin-top: 20px;
+}
+
+span {
+margin: 10px 0;
+
+}
+
+#nameField {
+margin: 10px 0;
+
+}
+#emailField {
+margin: 10px 0;
+}
+#messageField {
+	height: 200px;
+	margin: 10px 0;
+
+}
+#submitButton {
+	background-color: #4aaaa5;
+	width: 100px;
+	color: white;
+
+}
+/*Portfolio*/
+
+#photoDiv {
+
+}
+.photo {
+	float: left;
+	width: 250px;
+	margin: 25px 25px;
+}
+.picLabel {
+    float: left;
+    font-size: 16px;
+    font-color: lightgray;
+}
+.label {
+	color: white;
+	position: absolute;
+	padding-top: 10px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 980px) {
+	body {
+		background-color: white;
+	}
+	.smlogo{
+		margin-left: 20px;
+	}
+	
+	/*#FullWrap width 600px*/
+
+	#aboutMe {
+		background-color: white;
+		overflow: auto;
+		width: 80%;
+		float: left;
+		margin: 30px 10px;
+		padding: 0px 20px;
+	}
+	#connect {
+		float: left;
+		width: 80%;
+	}
+	#navLinks {
+		width: 100%;
+	}
+	header{
+		position: static;
+	}
+}
